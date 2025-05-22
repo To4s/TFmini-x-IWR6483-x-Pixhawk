@@ -29,7 +29,7 @@ mavlink_x = []
 mavlink_y = []
 mavlink_z = []
 
-configFileName = '/home/raspberry/mmWave/IWR6843AOP_wt_CM5/testconfig1.cfg' # Change path to .cfg file accordingly
+configFileName = 'testconfig1.cfg' # Change path to .cfg file accordingly
 CLIport = {}
 Dataport = {}
 byteBuffer = np.zeros(2**15,dtype = 'uint8')
